@@ -1,0 +1,45 @@
+**How did viewing a diff between two versions of a file help you see the bug that was introduced?**
+
+We could focus on just the differences between the two files. 
+Anything that wasn't different likely wasn't the bug.
+So just seeing the differences allowed us to find the bug more quickly.
+
+**How could having easy access to the entire history of a file make you a more efficient programmer in the long term?**
+
+We could easily try things out and if they didn't work, revert back to a previous version that did work.
+We wouldn't have to try to re-create our old version from scratch.
+We could also have a working version that we distribute, and a development version that has the latest changes.
+
+**What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?**
+
+Manually creating a commit allows us to decide what is an appropriate level of change before committing.
+It signifies that each commit is logically significant.
+It avoids clutter in the commit log.
+Someone else would likely be easier to follow what's going on.
+
+But it could also mean that meaningful changes were skipped over. 
+It would be possible to have a significant change made, then removed, with no record of what's happened.
+It relies on the programmer to commit meaningful changes.
+
+**Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?**
+
+Git is meant for programming in which the project is the key unit.
+Many files make up the project, therefore we need to track all of those simultaneously.
+
+Google Docs is more for tracking individual files--there are less likely to be the same kind of interconnections.
+
+**How can you use the commands git log and git diff to view the history of files?**
+
+git log lets us see a summary of all the changes in all the commits. 
+With enough detail, we should be able to see how the structure of the files changed.
+
+git diff gives us the specific lines that changes--the fine-grained detail.
+
+**How might using version control make you more confident to make changes that could break something?**
+
+I would know that I have a record of everything important I've done up to that point.
+I could revert readily to a previous version.
+
+**Now that you have your workspace set up, what do you want to try using Git for?**
+
+Keeping track of any number of text documents--programs, assignments for classes, etc.
