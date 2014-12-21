@@ -26,3 +26,17 @@ Making significant changes to the user interface or look and feel
 The diagrams show where the branches have been made in the existing branch structure.
 Each branch must start from a particular commit, and those commits may not always have been at the end of an existing branch.
 They also show what is reachable from the tip of a particular branch (and what is unreachable).
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?**
+
+The merging of two branches results in a single branch that points to the commits of both branches.
+We show it in the diagram with arrows pointing along both branches to show that all the commits from both branches are present.
+
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges manually?**
+
+Git's automatic merging gets most of the simple stuff right. That saves a lot of time for the programmers.
+It keeps a good record of what merges have been done and the full set of commits that have led to the merged branch.
+
+Manual merging would guarantee that every single merge is the desired one.
+But many merges are clear, particularly if each commit is one logical change, so Git can handle that better.
