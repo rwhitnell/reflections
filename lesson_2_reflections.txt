@@ -8,3 +8,10 @@ Doing it sets everything up for starting to commit files to the repository.
 The staging area is an intermediate stage between the working directory and the repository
 It allows related files to be grouped together and then entered into the repository in a single commit.
 Other files can be excluded if they aren't related to the files being staged.
+
+**How can you use the staging area to make sure you have one commit per logical change?**
+
+Place all the files that you think you want to commit into the staging area.
+Use git status to determine that the files you're ready to commit make sense.
+Review the changes with git diff to make sure that there is at least one logical change, but no more than one logical change.
+
