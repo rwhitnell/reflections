@@ -15,3 +15,8 @@ Place all the files that you think you want to commit into the staging area.
 Use git status to determine that the files you're ready to commit make sense.
 Review the changes with git diff to make sure that there is at least one logical change, but no more than one logical change.
 
+**What are some situations when branches would be helpful in keeping your history organized? How would branches help?**
+
+Testing a new experimental feature could require a new branch.
+Doing a major refactoring without committing to changing the master
+Making significant changes to the user interface or look and feel
