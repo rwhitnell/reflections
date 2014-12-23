@@ -12,3 +12,7 @@ If someone else is making changes to the repository, you may not be ready for th
 Forks are copies of another person's repository that I can edit. I create a fork when I want to take someone else's project in its entirety and modify it. In doing so, I can't change the original version.
 A clone is a complete copy of one of my repositories. I could see using this as a backup copy, or if I'm using it to make giant changes that are beyond what single commits may be able to reasonably handle.
 A branch points to the same repository, but starts a new part of the history. It allows me to make changes or try things out without affecting the main branch of the program until I'm ready.
+
+**What is the benefit of having a copy of the last known state of the remote stored locally?**
+I wouldn't need to have online access to know whether the state of the remote differs from the state of the local copy. 
+It may also prevent a sync problem if the state of the remote changes while I'm offline.
