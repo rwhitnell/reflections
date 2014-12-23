@@ -2,3 +2,7 @@
 
 If I'm working from multiple computers, a remote repository can allow me to keep the projects in sync on all those computers.
 In working with someone else, a remote repository allows all authors to work on the project while minimizing conflicts.
+
+**Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?**
+
+If someone else is making changes to the repository, you may not be ready for those yet.
